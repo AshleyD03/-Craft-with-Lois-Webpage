@@ -1,0 +1,12 @@
+body {
+    font-family: 'Carrois Gothic SC';font-size: 22px;
+}
+
+.title_bar{
+   background-color: rgb(240, 128, 212); 
+   padding: 2rem;
+}
+
+.bar1{
+    margin-left: 4rem; margin-right: 4rem;
+}
