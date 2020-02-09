@@ -1,12 +1,38 @@
 body {
-    font-family: 'Carrois Gothic SC';font-size: 22px;
+    font-family: "Catamaran"; color: #262626;
+}
+
+.logo{
+    position: absolute;
+    top: 0%; left: 0%;
+    width: 25%; height: 30%;
+    z-index: 1;
 }
 
 .title_bar{
-   background-color: rgb(240, 128, 212); 
-   padding: 2rem;
+   background-color: #ff8fcf; 
+   padding-top: 1.2rem; 
+   font-size: 200%;
+   display: flex;
+   align-items: center;
+}
+
+.title_bar a:hover{
+    text-decoration: none;
+    color: #262626;
 }
 
 .bar1{
-    margin-left: 4rem; margin-right: 4rem;
+    font-size: 28px; color: black;
+    text-decoration: none;
+    background-color:#ffb9e1;
+    padding: 2rem; padding-top: 0rem; padding-bottom: 0rem;
+}
+
+.on{
+    background-color: #ffd1eb;
+}
+
+#bar1{
+    margin-left: 30%;
 }
