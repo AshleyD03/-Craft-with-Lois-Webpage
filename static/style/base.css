@@ -1,0 +1,96 @@
+body {
+    font-family: "Catamaran"; color: #f7f7f7;
+}
+
+.logo{
+    position: fixed;
+    top: 0%; left: 0%;
+    width: 25%; height: 30%;
+    z-index: 1; 
+    opacity: 90%;
+}
+
+.logo-line{
+    position: fixed;
+    opacity: 90%;
+    background-color: #f7f7f7;
+    z-index: 1;
+    padding-right: 100%; padding-bottom: 0rem;
+}
+
+.title_bar{
+   background-color: #ff8fcf; 
+   padding-top: 1.2rem; 
+   font-size: 200%;
+   display: flex;
+   align-items: center;
+}
+
+.title_bar a:hover{
+    text-decoration: none;
+    color: #262626;
+}
+
+.bar1{
+    font-size: 28px; color: #f7f7f7; font-weight: 100;
+    text-decoration: none;
+    background-color:#ffb9e1;
+    padding: 2rem; padding-top: 0rem; padding-bottom: 0rem;
+}
+
+.on{
+    background-color: #ffd1eb; font-weight: 500;
+}
+
+.background-info{
+    background-color: #d0cece; display:flex;
+}
+
+.info-bar{
+    font-weight: 500;
+    padding: 1rem;
+    display: flex;
+}
+
+.info1{
+    padding-left: 1rem;
+    font-weight: 200;
+}
+
+.info2{
+    padding: 1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;
+    margin-left: 1rem;
+    background-color: #9c9c9c;
+    border-radius: 10%;
+    font-weight: 800;
+} 
+
+.info-bar a:hover{
+    text-decoration: none;
+    color: #f7f7f7;
+}
+
+.de-dec{
+    text-decoration: none; color: #262626;
+}
+
+.push-right30{
+    margin-left: 30%;
+}
+
+.push-right50{
+    margin-left: 80%
+}
+
+.page-img{
+    position: relative;
+    text-align: center;
+}
+
+.page-text{
+    color: white; font-size: 10rem; font-weight: 1000;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
