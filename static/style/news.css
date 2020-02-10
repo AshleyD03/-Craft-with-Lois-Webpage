@@ -1,0 +1,42 @@
+.background-1{
+    background-image: url(../images/back5.jpg);
+}
+
+.paragraph-1{
+    display: flex;
+    justify-content: center; padding-bottom: 2rem;
+}
+
+.p1{
+    margin: 3rem;
+}
+
+.p1-date{
+    font-size: 3rem; font-weight: 1000;
+    padding:2rem ;padding-top: 8rem; padding-left: 4rem;
+}
+
+.p1-img{
+    margin: auto;
+}
+
+.image-1{
+    height: 20rem; width: auto;  
+    margin: 0.5rem; margin-top: 3rem;
+}
+
+.p1-info{
+    padding-top: 3rem; padding-right: 4rem;
+}
+
+.head1{
+    font-size: 42px; font-weight: 1000;
+}
+
+.head2{
+    font-size: 22px ;font-weight: 100;
+}
+
+p{
+    font-size: 16px;
+}
