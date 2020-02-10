@@ -12,9 +12,6 @@ var newsList = [
   }
 ];
 
-// create br element
-br = document.createElement("br");
-
 // loop through array items
 for (var i = 0; i < newsList.length; i++) {
   // background/paragraph
@@ -46,27 +43,28 @@ for (var i = 0; i < newsList.length; i++) {
   info.setAttribute("class", "p1-info p1");
   var center = document.createElement("center");
 
-  // center > head1/head2/p
+  // Appends center > head1/head2/p using a for loop with a switch statement for each different element
   for (var x = 0; x < 3; x++) {
     switch (x) {
-      // center > head1
+      // Firstly creates div.head1 element
       case 0:
         var add = document.createElement("div");
         add.className = "head1";
         add.innerHTML = newsList[i].name;
         break;
-      // center > head2
+      // Secoundly creates div.head2 elemenet
       case 1:
         var add = document.createElement("div");
         add.className = "head2";
         add.innerHTML = newsList[i].time;
         break;
-      // center > p
+      // Lastly creates paragraph element
       case 2:
         var add = document.createElement("p");
         add.innerHTML = newsList[i].description;
         break;
     }
+    // Appends the element to center
     center.appendChild(add);
   }
 
@@ -77,7 +75,4 @@ for (var i = 0; i < newsList.length; i++) {
   // append output > background > paragraph
   background.appendChild(paragraph);
   output.appendChild(background);
-
-  // append br
-  background.appendChild(br);
 }
