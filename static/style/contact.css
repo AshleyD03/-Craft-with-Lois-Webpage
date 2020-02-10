@@ -1,0 +1,16 @@
+.background-1{
+    background-image: url(../images/back5.jpg);
+}
+
+.text-1{
+    font-weight: 400;
+}
+
+.text-2{
+    font-size: 22px; font-weight: 300;
+}
+
+.paragraph-1{
+    font-size: 28px; font-weight: 500;
+    padding: 2rem; padding-top: 1rem;
+}

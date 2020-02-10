@@ -31,6 +31,15 @@ body {
     color: #262626;
 }
 
+.title-1{
+    background-color: #ff8fcf;
+}
+
+.title-text{
+    font-size: 48px; font-weight: 200;
+    padding-left: 2%; 
+}
+
 .bar1{
     font-size: 28px; color: #f7f7f7; font-weight: 100;
     text-decoration: none;
@@ -58,11 +67,10 @@ body {
 }
 
 .info2{
-    padding: 1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;
+    padding: 0.5rem; 
     margin-left: 1rem;
-    background-color: #9c9c9c;
     border-radius: 10%;
-    font-weight: 800;
+    font-weight: 200; 
 } 
 
 .info-bar a:hover{
@@ -79,7 +87,7 @@ body {
 }
 
 .push-right50{
-    margin-left: 80%
+    margin-left: 110%
 }
 
 .page-img{
